@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">WVSUMC CSS</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="choose_area_survey">Choose area to be surveyed:</string>
+    <string name="choose_area_report">Choose area for report generation:</string>
+    <string name="choose_time_report">Choose time range for report generation:</string>
+    <string name="choose_area_preferred">Select area as default for this app:</string>
+    <string name="about_import_db">Click to import SQLite database file into root directory of your device storage:</string>
+    <string name="about">Pilot version</string>
+    <string name="next">Next</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">Ok</string>
+    <string name="done">Done</string>
+    <string name="total">Total</string>
+    <string name="show_report">Show Report</string>
+    <string name="return_report">Return to Report Menu</string>
+    <string name="save">Save</string>
+    <string name="import_db">Import</string>
+    <string name="survey_intro">West Visayas State University Medical Center is committed to
+        provide quality health care to patients admitted in this institution. To evaluate and
+        improve our patient services, we would like to know about your experience in our
+        institution.\n\nPlease rate the items accordingly. Your responses will be kept
+        confidential.</string>
+    <string name="survey_recommend">Would you recommend this hospital to others?</string>
+    <string name="survey_comments">Any comments or recommendations you can share?</string>
+    <string name="survey_end">Thank you for accomplishing our Customer Satisfaction Survey.</string>
+    <string name="sample_question_text">Ability of the medical staff to explain details about the
+        illness, procedures to be done and medications to be taken</string>
+    <string name="report_intro1">Report summary generated for:</string>
+    <string name="report_intro2">Report summary date range:</string>
+    <string name="report_intro3">Number of respondents:</string>
+    <string name="report_intro4">Number of completed forms:</string>
+    <string name="report_intro5">Display data for question:</string>
+    <string name="report_dialog1">Report of answers for question:</string>
+    <string name="report_comments">Comments:</string>
+    <string name="item_excellent">Excellent</string>
+    <string name="item_very_good">Very Good</string>
+    <string name="item_good">Good</string>
+    <string name="item_fair">Fair</string>
+    <string name="item_poor">Poor</string>
+    <string name="item_not_applicable">Not Applicable</string>
+    <string name="item_yes">Yes</string>
+    <string name="item_no">No</string>
+    <string-array name="nav_drawer_items">
+        <item>Survey Form</item>
+        <item>Reports</item>
+        <item>About</item>
+    </string-array>
+    <string-array name="survey_areas">
+        <item>Emergency Room Complex</item>
+    </string-array>
+    <string-array name="time_ranges">
+        <item>Last 24 hours</item>
+        <item>Last 7 days</item>
+        <item>Current month</item>
+        <item>Previous month</item>
+    </string-array>
+    <string-array name="sample_questions">
+        <item>Ability of the medical staff to explain details about the
+        illness, procedures to be done and medications to be taken</item>
+        <item>Would you recommend this hospital to others?</item>
+    </string-array>
+</resources>

@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/report_dialog1"
+                android:textAppearance="@android:style/TextAppearance.Material.Medium"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/rptDialogQuestion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="TextView"
+                android:textAppearance="@android:style/TextAppearance.Material.Medium"
+                android:textColor="#006400" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/report_intro2"
+                android:textAppearance="@android:style/TextAppearance.Material.Medium"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/rptDialogDateRange"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="TextView"
+                android:textAppearance="@android:style/TextAppearance.Material.Medium"
+                android:textColor="#006400" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/report_intro3"
+                android:textAppearance="@android:style/TextAppearance.Material.Medium"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/rptDialogRespondents"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="TextView"
+                android:textAppearance="@android:style/TextAppearance.Material.Medium"
+                android:textColor="#006400" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/report_intro4"
+                android:textAppearance="@android:style/TextAppearance.Material.Medium"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/rptDialogCompletedForms"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="TextView"
+                android:textAppearance="@android:style/TextAppearance.Material.Medium"
+                android:textColor="#006400" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/tvLabelExcellent"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/item_excellent"
+                        android:textAppearance="@android:style/TextAppearance.Material.Medium"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/tvCountExcellent"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textAppearance="@android:style/TextAppearance.Material.Medium"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/tvPctExcellent"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textAppearance="@android:style/TextAppearance.Material.Medium"
+                        android:textColor="#000000" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/tvLabelVeryGood"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/item_very_good"
+                        android:textAppearance="@android:style/TextAppearance.Material.Medium"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/tvCountVeryGood"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textAppearance="@android:style/TextAppearance.Material.Medium"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/tvPctVeryGood"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textAppearance="@android:style/TextAppearance.Material.Medium"
+                        android:textColor="#000000" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/tvLabelGood"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/item_good"
+                        android:textAppearance="@android:style/TextAppearance.Material.Medium"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/tvCountGood"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textAppearance="@android:style/TextAppearance.Material.Medium"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/tvPctGood"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textAppearance="@android:style/TextAppearance.Material.Medium"
+                        android:textColor="#000000" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/tvLabelFair"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/item_fair"
+                        android:textAppearance="@android:style/TextAppearance.Material.Medium"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/tvCountFair"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textAppearance="@android:style/TextAppearance.Material.Medium"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/tvPctFair"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textAppearance="@android:style/TextAppearance.Material.Medium"
+                        android:textColor="#000000" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/tvLabelPoor"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/item_poor"
+                        android:textAppearance="@android:style/TextAppearance.Material.Medium"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/tvCountPoor"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textAppearance="@android:style/TextAppearance.Material.Medium"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/tvPctPoor"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textAppearance="@android:style/TextAppearance.Material.Medium"
+                        android:textColor="#000000" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <TextView
+                        android:id="@+id/tvLabelNA"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/item_not_applicable"
+                        android:textAppearance="@android:style/TextAppearance.Material.Medium"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/tvCountNA"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textAppearance="@android:style/TextAppearance.Material.Medium"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/tvPctNA"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textAppearance="@android:style/TextAppearance.Material.Medium"
+                        android:textColor="#000000" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView21"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/total"
+                        android:textAppearance="@android:style/TextAppearance.Material.Medium"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/tvCountTotal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textAppearance="@android:style/TextAppearance.Material.Medium"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/tvPctTotal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textAppearance="@android:style/TextAppearance.Material.Medium"
+                        android:textColor="#000000" />
+                </TableRow>
+
+            </TableLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
