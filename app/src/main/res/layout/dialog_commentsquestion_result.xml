@@ -113,7 +113,7 @@
                 android:id="@+id/rptCommentList"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:gravity="end"
+                android:gravity="left"
                 android:text="TextView"
                 android:textAppearance="@android:style/TextAppearance.Material.Medium"
                 android:textColor="#006400" />
